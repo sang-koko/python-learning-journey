@@ -1,0 +1,7 @@
+name = input("Enter your name: ")
+college = input("Enter your college: ")
+cgpa = float(input("Enter your CGPA: "))
+print("\n----- Student Profile -----")
+print("Name    :", name)
+print("College :", college)
+print("CGPA    :", cgpa)
