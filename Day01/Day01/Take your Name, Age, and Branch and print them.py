@@ -1,7 +1,0 @@
-name = input("Enter your name: ")
-age = int(input("Enter your age: "))
-branch = input("Enter your branch: ")
-print("\n----- Student Details -----")
-print("Name   :", name)
-print("Age    :", age)
-print("Branch :", branch)
