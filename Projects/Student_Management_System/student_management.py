@@ -1,0 +1,22 @@
+print("====================================")
+print(" STUDENT MANAGEMENT SYSTEM ")
+print("====================================")
+name = input("Enter Student Name: ")
+usn = input("Enter USN: ")
+branch = input("Enter Branch: ")
+python = int(input("Enter Python Marks: "))
+maths = int(input("Enter Maths Marks: "))
+electronics = int(input("Enter Electronics Marks: "))
+total = python + maths + electronics
+average = total / 3
+percentage = (total / 300) * 100
+print("\n========== STUDENT REPORT ==========")
+print("Name       :", name)
+print("USN        :", usn)
+print("Branch     :", branch)
+print("Python     :", python)
+print("Maths      :", maths)
+print("Electronics:", electronics)
+print("Total      :", total)
+print("Average    :", average)
+print("Percentage :", percentage, "%")
