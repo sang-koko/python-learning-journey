@@ -1,0 +1,38 @@
+print("===================================")
+print("   STUDENT MANAGEMENT SYSTEM V2")
+print("===================================")
+name = input("Enter Student Name: ")
+usn = input("Enter USN: ")
+department = input("Enter Department: ")
+marks = int(input("Enter Marks (0-100): "))
+print("\n===================================")
+print("         STUDENT REPORT")
+print("===================================")
+print("Name       :", name)
+print("USN        :", usn)
+print("Department :", department)
+print("Marks      :", marks)
+if marks < 0 or marks > 100:
+    print("Result     : Invalid Marks")
+elif marks >= 90:
+    print("Grade      : A+")
+    print("Result     : Pass")
+    print("Remarks    : Excellent")
+elif marks >= 75:
+    print("Grade      : A")
+    print("Result     : Pass")
+    print("Remarks    : Very Good")
+elif marks >= 60:
+    print("Grade      : B")
+    print("Result     : Pass")
+    print("Remarks    : Good")
+elif marks >= 35:
+    print("Grade      : C")
+    print("Result     : Pass")
+    print("Remarks    : Needs Improvement")
+else:
+    print("Grade      : F")
+    print("Result     : Fail")
+    print("Remarks    : Better Luck Next Time")
+print("===================================")
+print("Thank you for using Student Management System!")
