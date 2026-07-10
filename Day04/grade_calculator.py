@@ -1,0 +1,36 @@
+name = input("Enter Student Name: ")
+marks = int(input("Enter Marks: "))
+print("\n-----------------------------")
+if marks > 100 or marks < 0:
+    print("Invalid Marks")
+elif marks >= 90:
+    print("Student Name :", name)
+    print("Marks        :", marks)
+    print("Grade        : A+")
+    print("Result       : Pass")
+    print("Remarks      : Excellent")
+elif marks >= 75:
+    print("Student Name :", name)
+    print("Marks        :", marks)
+    print("Grade        : A")
+    print("Result       : Pass")
+    print("Remarks      : Very Good")
+elif marks >= 60:
+    print("Student Name :", name)
+    print("Marks        :", marks)
+    print("Grade        : B")
+    print("Result       : Pass")
+    print("Remarks      : Good")
+elif marks >= 35:
+    print("Student Name :", name)
+    print("Marks        :", marks)
+    print("Grade        : C")
+    print("Result       : Pass")
+    print("Remarks      : Needs Improvement")
+else:
+    print("Student Name :", name)
+    print("Marks        :", marks)
+    print("Grade        : F")
+    print("Result       : Fail")
+    print("Remarks      : Better Luck Next Time")
+print("-----------------------------")
