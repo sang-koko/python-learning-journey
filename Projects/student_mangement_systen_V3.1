@@ -1,0 +1,52 @@
+while True:
+    print("\n===== STUDENT MANAGEMENT SYSTEM =====")
+    print("1. Add Student")
+    print("2. Exit")
+
+    choice = int(input("Enter your choice: "))
+
+    if choice == 1:
+        name = input("Enter Student Name: ")
+        usn = input("Enter Student USN: ")
+        branch = input("Enter Branch: ")
+        marks = int(input("Enter Marks: "))
+
+        print("\n----- Student Details -----")
+        print("Name   :", name)
+        print("USN    :", usn)
+        print("Branch :", branch)
+        print("Marks  :", marks)
+
+        if marks >= 90 and marks <= 100:
+            print("Result : Pass")
+            print("Grade  : A+")
+
+        elif marks >= 80:
+            print("Result : Pass")
+            print("Grade  : A")
+
+        elif marks >= 70:
+            print("Result : Pass")
+            print("Grade  : B")
+
+        elif marks >= 60:
+            print("Result : Pass")
+            print("Grade  : C")
+
+        elif marks >= 35:
+            print("Result : Pass")
+            print("Grade  : Pass")
+
+        elif marks >= 0:
+            print("Result : Fail")
+            print("Grade  : Fail")
+
+        else:
+            print("Invalid Marks!")
+
+    elif choice == 2:
+        print("Thank you! Exiting Program...")
+        break
+
+    else:
+        print("Invalid Choice!")
